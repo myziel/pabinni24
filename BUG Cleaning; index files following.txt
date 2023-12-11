@@ -1,0 +1,59 @@
+BUG Cleaning; index files following(index.php files paths)
+/tmz
+Clean mark at end is *
+
+/tmz/admin *
+/tmz/admin/controller *
+/tmz/admin/model *
+/tmz/admin/view *
+/tmz/catalog *
+/tmz/catalog/controller *
+/tmz/catalog/model *
+/tmz/catalog/view *
+/tmz/cgi-bin
+/tmz/image/abubakar
+/tmz/image/ahsan
+/tmz/image/alirasheed
+/tmz/image/arslan
+/tmz/image/catalog/index.php & index.html.bak.bak (bak bak convert again to .html
+/tmz/image/danishkhan
+/tmz/image/danishkhandeveloper
+/tmz/image/daniyal
+/tmz/image/faisal
+/tmz/image/kawancorp
+/tmz/image/kawancorp1
+/tmz/image/mahad
+/tmz/image/payment
+/tmz/image/test1
+/tmz/image/test2
+/tmz/image/test3
+/tmz/image/umair
+/tmz/image/usman
+/tmz/image/v10@gmail.com
+/tmz/image/V9@GMAIL.COM
+/tmz/seller
+/tmz/seller/catalog
+/tmz/seller/catalog(old)
+/tmz/seller/image
+/tmz/seller/PHPExcel .../tmz/seller/PHPExcel
+
+/tmz/seller/system
+/tmz/system
+/tmz/system/config
+/tmz/system/engine
+/tmz/system/helper
+/tmz/system/library
+
+
+
+//echo @file_get_contents('index.html.bak.bak')
+
+/tmz/system/storage
+
+/tmz/seller/catalog(old)/model/saccount/offer.php.bak
+
+-------------
+error need to fix
+======================
+Warning: require_once(/home/abziel/public_html/system/startup.php): failed to open stream: No such file or directory in /hermes/bosnacweb06/bosnacweb06ad/b2553/ipg.khalidawan1698809/tmz/index.php on line 18 Fatal error: require_once(): Failed opening required '/home/abziel/public_html/system/startup.php' (include_path='.:/usr/share/php') in /hermes/bosnacweb06/bosnacweb06ad/b2553/ipg.khalidawan1698809/tmz/index.php on line 18
+--------------------------

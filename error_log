@@ -1,0 +1,27 @@
+[28-May-2019 05:47:44 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: EHLO not accepted from server!' in /home1/myziel/public_html/system/library/mail.php:201
+Stack trace:
+#0 /home1/myziel/public_html/catalog/controller/account/register.php(23): Mail->send()
+#1 [internal function]: ControllerAccountRegister->index()
+#2 /home1/myziel/public_html/system/engine/action.php(51): call_user_func_array(Array, Array)
+#3 /home1/myziel/public_html/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 [internal function]: ControllerStartupRouter->index()
+#5 /home1/myziel/public_html/system/engine/action.php(51): call_user_func_array(Array, Array)
+#6 /home1/myziel/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#7 /home1/myziel/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#8 /home1/myziel/public_html/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#9 /home1/myziel/public_html/system/startup.php(125): require_once('/home1/myziel/p...') in /home1/myziel/public_html/system/library/mail.php on line 201
+[28-May-2019 05:49:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Connection timed out (110)' in /home1/myziel/public_html/system/library/mail.php:170
+Stack trace:
+#0 /home1/myziel/public_html/catalog/controller/account/register.php(23): Mail->send()
+#1 [internal function]: ControllerAccountRegister->index()
+#2 /home1/myziel/public_html/system/engine/action.php(51): call_user_func_array(Array, Array)
+#3 /home1/myziel/public_html/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 [internal function]: ControllerStartupRouter->index()
+#5 /home1/myziel/public_html/system/engine/action.php(51): call_user_func_array(Array, Array)
+#6 /home1/myziel/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#7 /home1/myziel/public_html/system/engine/front.php(29): Front->execute(Object(Action))
+#8 /home1/myziel/public_html/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#9 /home1/myziel/public_html/system/startup.php(125): require_once('/home1/myziel/p...')
+#10 in /home1/myziel/public_html/system/library/mail.php on line 170
+[01-Jun-2019 05:44:04 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[11-Jun-2019 05:21:17 America/Chicago] PHP Fatal error:  Call to undefined function convert_cp_to_amount() in /home1/myziel/public_html/catalog/view/theme/default/template/account/levelsystem.tpl on line 9
